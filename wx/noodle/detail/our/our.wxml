@@ -1,0 +1,10 @@
+<view class='guanyu'>
+<view class="icon_name">
+<view><image src="cloud://noodle-hw-8b234b.6e6f-noodle-hw-8b234b/images/icon_name.jpg"></image></view>
+<view class="name"><text class="name1">广西米粉</text></view>
+</view>
+<view class="text1"><text>版本号：1.0.1</text></view>
+<view class="text1"><text>官方网站：guangxi.mf.com</text>
+</view>
+<view class='text1'><text>Copyright @2018 梧州学院All Rights Reserved</text></view>
+</view>

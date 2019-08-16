@@ -1,0 +1,12 @@
+
+
+<view class='cart'>
+<view class='cart-view' wx:for="{{array}}">
+
+<view class='cart-view-image'><image class='cart-view-image-2' src='{{ item.image}}'></image></view>
+
+<view class='cart-view-text'><text class='cart-view-text-2'>{{item.title}}</text></view>
+
+</view>
+</view>
+

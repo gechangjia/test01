@@ -1,0 +1,22 @@
+<view class="personal_info">
+<button class='getUser' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" hidden='{{hidden_1}}'>授权</button>
+	<view class="photo_wrap">
+		<image src="{{avatarUrl_1}}" class="photo"></image>
+	</view>
+	<view class="nickname">
+		{{nickName_1}}
+	</view>
+</view>
+<view class="wode_item_wrap">
+	<view class="wode_item" wx:key="{{key}}" wx:for="{{mode}}" bindtap='buttun_id' data-index='{{index}}'>
+		{{item}}
+		<span class="arrow_wrap"><image src='cloud://noodle-hw-8b234b.6e6f-noodle-hw-8b234b/images/icon_wode.png'></image></span>
+	</view>
+</view>
+<view class="wode_out"><navigator
+    open-type="exit"
+    target="miniProgram"
+    url="../../home/home"
+  >
+    退出
+  </navigator></view>

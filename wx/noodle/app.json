@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mine/mine",
+    "detail/detail/detail",
+    "detail/xiaoxi/xiaoxi",
+    "detail/shoucang/shoucang",
+    "detail/xiaoxi2/xiaoxi2",
+    "detail/kefu/kefu",
+    "detail/our/our",
+    "pages/index/index",
+    "pages/routes/routes",
+    "pages/info/info",
+    "pages/inputtip/inputtip",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序位置接口的效果展示"
+      }
+    },
+  "window": {
+ "navigationBarBackgroundColor": "#404040",
+ "navigationBarTitleText": "广西米粉",
+ "navigationBarTextStyle": "#fff",
+ "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#d8d8d8",
+    "list": [
+      {
+        "selectedIconPath": "images/home_1.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/map1.png",
+        "iconPath": "images/map2.png",
+        "pagePath": "pages/index/index",
+        "text": "地图"
+      },
+      {
+        "selectedIconPath": "images/user_1.png",
+        "iconPath": "images/user.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

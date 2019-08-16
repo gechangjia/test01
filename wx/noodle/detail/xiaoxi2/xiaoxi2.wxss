@@ -1,0 +1,30 @@
+page{
+  background-color: rgb(228, 226, 226)
+}
+.xiaoxi2{
+  width: 100%;
+}
+.xiaoxi2-1{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 200rpx;
+  background-color: #FFF;
+}
+.xiaoxi2-t1{
+  position: absolute;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  font-size: 45rpx;
+}
+.xiaoxi2-t2{
+  position: absolute;
+  margin-left: 20rpx;
+  margin-top: 150rpx;
+  color: rgb(185, 179, 179);
+}
+.xiaoxi2-img{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 130rpx;
+  margin-left: 690rpx;
+}

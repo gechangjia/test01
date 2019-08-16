@@ -1,0 +1,25 @@
+<view class="swiper_view" >
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}"  wx:key="key">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class="title">
+<view class="title_1">
+<text>{{text_1}}</text>
+</view>
+</view>
+
+<view class='show'>
+<view class="show-view" wx:for="{{mifen}}" wx:key="key"  bindtap='mifenDetail' data-index='{{item._id}}'>
+<view class="show-view-1"><image class='show-view-1-image' src="{{item.image}}"></image></view>
+<view class="show-view-2"><text class='show-view-2-text'>{{item.mf_title}}</text>
+<image class='show-view-2-image' src='cloud://noodle-hw-8b234b.6e6f-noodle-hw-8b234b/images/see_icon.png'></image>
+<text class='show-view-2-text2'>250</text>
+</view>
+</view>
+</view>

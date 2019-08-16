@@ -1,0 +1,9 @@
+<view class='xiaoxi'>
+
+<view hidden="{{query1}}">
+<text>暂无消息！</text>
+</view>
+<view bindtap='xiaoxi_2' wx:for="{{query2}}" data-index='{{item._id}}' wx:key="{{key}}" class='xiaoxi-show'>
+<image class='xiaoxi-img' src='../../images/xiaoxi.png'></image><text class='xiao-t'>评论</text><text class='xiaoxi-t'>你在{{item.mifenname}}发表评论！</text>
+</view>
+</view>

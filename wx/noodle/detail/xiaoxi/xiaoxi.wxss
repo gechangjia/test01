@@ -1,0 +1,32 @@
+page{
+  margin: 0rpx;
+  padding: 0rpx;
+  background-color: rgb(235, 228, 228)
+}
+.xiaoxi{
+  width: 100%;
+}
+.xiaoxi-show{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 120rpx;
+  background-color: #fff
+}
+.xiaoxi-img{
+  margin-top: 25rpx;
+  margin-left: 30rpx;
+  width: 70rpx;
+  height: 70rpx;
+}
+.xiao-t{
+  position: absolute;
+  margin-top: 10rpx;
+  margin-left: 40rpx;
+}
+.xiaoxi-t{
+  position: absolute;
+  font-size: 30rpx;
+  color: rgb(187, 178, 178);
+  margin-left: 40rpx;
+  margin-top: 60rpx;
+}

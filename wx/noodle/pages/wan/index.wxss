@@ -1,0 +1,18 @@
+.cart{
+  width: 100%;
+  display: box;
+}
+.cart-view{
+  display: inline-block;
+  background-color: #fff;
+  margin-top:20rpx; 
+  width: 50%;
+  height: 400rpx;
+}
+.cart-view-image-2{
+  width: 80%;
+  height: 200rpx;
+}
+.cart-view-text-2{
+  overflow: hidden;
+}

@@ -1,0 +1,190 @@
+.save{
+  width: 30px;
+  height: 30px
+}
+.detail-image{
+  width: 200px; 
+  height: 200px;
+}
+.scroll-vi{
+  display: inline-block; 
+  width: 200px; 
+  height: 200px;
+}
+.kong{
+  position: absolute;
+  margin-top: 100rpx;
+  width: 100%;
+  height: 80rpx;
+}
+.shoucang_img{
+  width: 100%;
+  background-color: rgb(228, 224, 224);
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  height: 80rpx;
+}
+.shoucang_img image{
+  margin-top: 20rpx;
+  margin-left: 570rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.shoucang_img-text{
+  margin-top: 20rpx;
+  font-size: 35rpx;
+  color: rgb(32, 31, 31)
+}
+.shoucang_img-input{
+  position: absolute;
+  margin-left: 20rpx;
+  width: 400rpx;
+  background-color: #fff;
+  height: 79rpx;
+  border: 1rpx solid rgb(185, 171, 171);
+}
+.shoucang_img-button{
+  background-color: rgb(180, 170, 170);
+  margin-left: 415rpx;
+  position: absolute;
+  width: 120rpx;
+  height: 80rpx;
+  padding-left: 20rpx;
+  padding-bottom:10rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+.name-1{
+  font-size: 40rpx;
+  margin-top: 30rpx;
+  height: 100rpx;
+  font-weight: bold;
+  color: rgb(49, 47, 47);
+  border-bottom: 1rpx dashed rgb(160, 152, 152);
+}
+.name-2{
+  height: 60rpx;
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: rgb(49, 47, 47);
+}
+.mf-title{
+  margin-left: 500rpx;
+  font-size: 35rpx;
+  margin-top: 0rpx;
+}
+.detail-2{
+  border-bottom: 1rpx dashed rgb(160, 152, 152);
+  padding-bottom: 20rpx;
+}
+
+/* 评论的css */
+.user-comments{
+  position: relative;
+  margin-top: 120rpx;
+  margin-left: 10rpx;
+}
+.user-comments-title{
+  position: absolute;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.user-comments-username{
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+.user-comments-username image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.user-comments-username text{
+  padding-left: 20rpx;
+}
+.user-comments-content{
+  padding-bottom: 20rpx;
+  border-bottom: 4rpx solid rgb(194, 186, 186);
+}
+.user-comments-content-text{
+  margin-left: 70rpx;
+  color: rgb(88, 68, 68);
+  font-size: 30rpx;
+  width: 100%;
+}
+/* 文字伸展和收缩 */
+.ellipsis-text{
+  color: rgb(53, 5, 228);
+  font-size: 30rpx;
+}
+.content {
+  color: rgb(102, 98, 98);
+  font-size: 25rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+/* 修改列数 */
+.ellipsis {
+  -webkit-line-clamp: 2;
+  opacity: 0.5；
+}
+
+
+/* 展示全部 */
+.unellipsis {
+  -webkit-line-clamp: 0;
+  opacity: 1；
+}
+.user-comments-item{
+  color: #000;
+  position: absolute;
+  margin-left: 400rpx;
+  width: 350rpx;
+  height: 100rpx;
+  padding:20rpx;
+}
+.user-comments-item1{
+  position: absolute;
+  width: 150rpx;
+  height: 60rpx;
+  font-size: 30rpx;
+}
+.user-comments-item2{
+  font-size: 30rpx;
+  position: absolute;
+  margin-left: 160rpx;
+  width: 150rpx;
+  height: 60rpx;
+}
+.item-comments-dianzan{
+  width: 100%;
+  height: 60rpx;
+  position: relative;
+  padding: 10rpx;
+}
+.item-comments-dianzan image{
+  position: absolute;
+  margin-left: 550rpx;
+  width: 60rpx;
+  height: 60rpx;
+
+}
+.user-comments-content-text-2{
+  position: absolute;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  width: 300rpx;
+  height: 20px;
+  color: rgb(202, 196, 196)
+}
+.user-comments-content-text-3{
+  position: absolute;
+  margin-top: 20rpx;
+  margin-left: 620rpx;
+  font-size: 30rpx;
+}

@@ -1,0 +1,7 @@
+<view class='xiaoxi2'>
+<view class='xiaoxi2-1'>
+<text class='xiaoxi2-t1'>{{text}}</text>
+<text class='xiaoxi2-t2'>{{date}}</text>
+<image catchtap='del' class='xiaoxi2-img' src='cloud://noodle-hw-8b234b.6e6f-noodle-hw-8b234b/images/del.png'></image>
+</view>
+</view>

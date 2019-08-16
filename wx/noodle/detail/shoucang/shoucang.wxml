@@ -1,0 +1,29 @@
+<view class='view'>
+<view hidden='{{hidden_1}}'>暂无收藏！</view>
+
+<view class='view-shoucang' bindtap='soucang_detail' wx:for="{{Collection}}" wx:key="index" data-index="{{item.mf_id}}">
+
+<view  class='view-shoucang-images'>
+<image  class='view-shoucang-images-1' src='{{item.image}}'></image>
+</view>
+
+<view class='view-shoucang-text'>
+<text class='view-shoucang-text-title'>{{item.title}}
+</text>
+<view>
+<text class='view-shoucang-text-date'>收藏时间：{{item.date}}
+</text>
+</view>
+</view>
+
+
+<view  catchtap='remove_sc' data-index='{{item._id}}' class='view-shoucang-button' >
+<image class='view-shoucang-button-image' src='cloud://noodle-hw-8b234b.6e6f-noodle-hw-8b234b/images/del.png'>
+</image>
+</view>
+
+
+</view>
+
+
+</view>

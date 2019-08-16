@@ -1,0 +1,38 @@
+
+<view >
+
+<scroll-view scroll-x style="width: 100%; white-space: nowrap;">
+ <view class='scroll-vi'><image class='detail-image' src='{{image}}'>
+ </image></view>
+ <view class='scroll-vi'><image class='detail-image' src='{{image2}}'></image></view>
+ <view class='scroll-vi'><image class='detail-image' src='{{image3}}'></image></view>
+ <view class='scroll-vi'><image class='detail-image' src='{{image4}}'></image></view>
+</scroll-view>
+
+
+<!-- <view><image class='detail-image' src='{{image}}'></image></view> -->
+<view class='name-1'>名称:<text class='mf-title'>{{mf_title}}</text></view>
+<view class='name-2'>简介</view>
+<view class='detail'><text class="content {{ellipsis?'ellipsis':'unellipsis'}}">{{text_detail}}</text></view>
+<view class='detail-2' bindtap='ellipsis'><text class='ellipsis-text'>{{ellipsis?'展开':'收起'}}</text></view>
+<view><text class='user-comments-title'>用户评论({{comments_number}})</text><view class='user-comments-item'><button catchtap='onQuery' style='background-color:{{color1}};' class='user-comments-item1'>最新</button><button style='background-color:{{color2}};' catchtap='zuiZan' class='user-comments-item2'>最赞</button></view></view>
+
+<view class='user-comments' wx:for="{{comments_query}}" wx:key="key">
+<view class='user-comments-username'><image src='{{item.userimage}}'></image><text>{{item.username}}</text></view>
+<view class='user-comments-content'><text class='user-comments-content-text'>{{item.comments_text}}</text><view class='item-comments-dianzan'><text class='user-comments-content-text-2'>{{item.date2}}</text><image wx:if="{{item.pdian}}" data-dianzan='{{item._id}}' catchtap='dianzan'  src='cloud://noodle-hw-8b234b.6e6f-noodle-hw-8b234b/images/dianzan.png'></image>
+<image wx:else data-dianzan='{{item._id}}' catchtap='dianzan'  src='cloud://noodle-hw-8b234b.6e6f-noodle-hw-8b234b/images/dianzan2.png'></image>
+<text class='user-comments-content-text-3'>{{item.number}}</text></view></view>
+</view>
+
+
+<view class='kong'></view>
+<view class='shoucang_img'>
+ <form bindsubmit="formSubmit">
+   <input name='comments_text' class='shoucang_img-input' type='text'></input>
+   <button formType="submit" class='shoucang_img-button'>发 表</button>
+   </form>
+   <image wx:if="{{collected}}" catchtap='onCollectionTap' src='cloud://noodle-hw-8b234b.6e6f-noodle-hw-8b234b/images/shoucang_1.png'></image>
+   <image wx:else catchtap='onCollectionTap' src='cloud://noodle-hw-8b234b.6e6f-noodle-hw-8b234b/images/shoucang.png'></image>
+   <text class='shoucang_img-text'>{{collected ? '已收藏':'收藏'}}</text>
+   </view>
+</view>

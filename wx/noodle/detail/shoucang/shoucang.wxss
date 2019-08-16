@@ -1,0 +1,54 @@
+.view{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 40rpx;
+}
+.view-shoucang{
+
+  margin-top: 20rpx;
+  position: relative;
+  width: 100%;
+  height: 150rpx;
+}
+.view-shoucang-images{
+  position: absolute;
+  width: 150rpx;
+  height: 150rpx;
+  background: #fff;
+}
+.view-shoucang-text{
+  position: absolute;
+  left: 190rpx;
+  width: 540rpx;
+  height: 150rpx;
+}
+.view-shoucang-text-title{
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+  font-size: 35rpx;
+}
+.view-shoucang-text-date{
+  position: absolute;
+  padding-left: 20rpx;
+  padding-top: 45rpx;
+  font-size: 30rpx;
+  color: rgb(109, 78, 78)
+}
+.view-shoucang-button{
+  position: absolute;
+  left: 680rpx;
+  top: 90rpx;
+  width: 50rpx;
+  height: 50rpx;
+  background: #fff;
+}
+.view-shoucang-button-image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.view-shoucang-images-1{
+  position: absolute;
+  left: 20rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
